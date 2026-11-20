@@ -1,0 +1,21 @@
+name: AntiSnowMelting
+description: This plugin prevents snow from melting.
+version: '${version}'
+
+main: de.Aixline.antiSnowMelting.AntiSnowMelting
+api-version: '26.3'
+load: POSTWORLD
+
+authors: [ Aixline ]
+website: AxOpGens.xyz
+
+commands:
+  antisnowmelting:
+    description: Enables or disables snow melting prevention.
+    usage: /<command> <on|off>
+    permission: antisnowmelting.toggle
+
+permissions:
+  antisnowmelting.toggle:
+    description: Allows toggling snow melting prevention.
+    default: op
